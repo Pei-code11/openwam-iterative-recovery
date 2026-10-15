@@ -15,7 +15,7 @@ used for tuning.
 
 Across these three runs, the learned router averages **83.75% task success**
 and improves over the rule hybrid by 10.25 percentage points on average. It
-improves over always replanning by 8.25 points on average. The paired harm
+improves over always replanning by 8.92 points on average. The paired harm
 count is zero in all three runs. The main cost is false replanning under noisy
 visual evidence: it varies from 79 to 286 episodes, while false repair stays
 at 2--3 episodes. This is a limitation of the current synthetic router, not a
