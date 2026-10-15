@@ -22,10 +22,12 @@ features so the routing logic is reproducible without OpenWAM or LIBERO.
 
 `scripts/run_failure_router_hard_benchmark.py` creates one latent state for
 each episode and forks that state into all five candidate routes. The labels
-are the deterministic terminal outcomes of those branches. The router never
-sees those labels at deployment time. Episodes, rather than individual
-frames, are split into train/dev/test. Intervention costs and the uncertainty
-margin are selected on the development split and then frozen.
+are the deterministic terminal outcomes of those branches from the same latent
+state; they are not human visual annotations or camera probabilities. The
+router never sees those labels at deployment time. Episodes, rather than
+individual frames, are split into train/dev/test. Intervention costs and the
+uncertainty margin are selected on the development split and then frozen. A
+safe-stop is resolved for the safety metric but excluded from task completion.
 
 The held-out run contains 800 episodes. Its test distribution is broader and
 noisier than training and includes:
@@ -62,9 +64,10 @@ task completion and 58.0 points in resolved episodes. It gains 8.2 points in
 task completion over always replanning and 10.1 points over the hand-written
 rule hybrid. The three false repairs occur on clean or distractor controls.
 The 79 false replans are the main cost: the router is aggressive about asking
-WAM to look again when the visual evidence is noisy. There is no paired harm
-against stale WAM in this run because the learned route did not turn a
-successful stale-WAM episode into a failed task.
+WAM to look again when the synthetic visual evidence is noisy. This tradeoff
+must be reported with the success rate. There is no paired harm against stale
+WAM in this run because the learned route did not turn a successful stale-WAM
+episode into a failed task.
 
 The source oracle is **not** the upper bound: knowing only the nominal source
 does not resolve mixed and late cases. The counterfactual oracle sees all

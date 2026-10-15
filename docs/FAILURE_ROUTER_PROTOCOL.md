@@ -40,11 +40,13 @@ magnitude as a proxy for benefit.
 
 ## Counterfactual labels and splits
 
-For each decision state, the simulator branches into the five actions and
-records a soft final-success target. The branch outcome is never provided to
-the deployed router. Episodes, rather than frames, are split into train,
-development, and held-out partitions. Development chooses intervention costs
-and the uncertainty margin. Held-out outcomes are not used to retune them.
+For each decision state, the simulator branches into the five actions. The
+original smoke benchmark records a soft final-success target. The hard
+benchmark records the deterministic terminal outcome of every branch from the
+same latent state. The branch outcome is never provided to the deployed
+router. Episodes, rather than frames, are split into train, development, and
+held-out partitions. Development chooses intervention costs and the
+uncertainty margin. Held-out outcomes are not used to retune them.
 
 The included benchmark is a self-contained stress test so that the routing
 logic can run without a LIBERO or OpenWAM installation. It contains clean and
@@ -59,7 +61,8 @@ Report task success with paired rescue/harm, clean false-repair episodes,
 distractor-only false-repair/replan episodes, source confusion, first
 intervention delay, route latency, WAM calls, local repair count, and model
 parameters. A trigger is not a rescue: a rescue requires the paired baseline to
-fail and the routed rollout to succeed. A harm requires the reverse.
+fail and the routed rollout to succeed. A harm requires the reverse. A
+safe-stop counts as resolved for the safety metric, but not as task success.
 
 ## Scope
 

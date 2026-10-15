@@ -59,7 +59,7 @@ Run the self-contained stress benchmark with:
 python scripts/run_failure_router_benchmark.py --output outputs/failure_router_benchmark
 ```
 
-The protocol and result are documented in [docs/FAILURE_ROUTER_PROTOCOL.md](docs/FAILURE_ROUTER_PROTOCOL.md) and [docs/FAILURE_ROUTER_RESULTS.md](docs/FAILURE_ROUTER_RESULTS.md). The reported held-out test is synthetic and deliberately difficult; its current result does not show the learned router outperforming the rule hybrid.
+The protocol and result are documented in [docs/FAILURE_ROUTER_PROTOCOL.md](docs/FAILURE_ROUTER_PROTOCOL.md) and [docs/FAILURE_ROUTER_RESULTS.md](docs/FAILURE_ROUTER_RESULTS.md). The ordinary held-out smoke test is synthetic and deliberately difficult; its rule hybrid reaches 100%, so that test does not establish a learned-router advantage. The harder paired benchmark below is the relevant stress test: its learned router reaches 83.25% task success versus 73.13% for the rule hybrid, with 79 false replans and 3 false repairs.
 
 The harder paired prototype can be run with:
 
