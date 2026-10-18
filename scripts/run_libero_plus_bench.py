@@ -46,8 +46,15 @@ class _LocalSuite:
         prompt_file = os.environ.get("WAM_PROMPTS_JSON")
         if prompt_file and Path(prompt_file).is_file():
             records = json.loads(Path(prompt_file).read_text())
-            for task_id, record in zip((287, 677, 1099, 1932, 2092), records):
-                prompt_map[task_id] = record["task_language"]
+            if isinstance(records, dict):
+                # Large evaluation manifests use an explicit task-id map.
+                for key, record in records.items():
+                    prompt_map[int(key)] = (record["task_language"]
+                                            if isinstance(record, dict) else str(record))
+            else:
+                # Preserve the original five-task prompt file format.
+                for task_id, record in zip((287, 677, 1099, 1932, 2092), records):
+                    prompt_map[task_id] = record["task_language"]
         self.tasks = {}
         for task_id in task_ids:
             name = task_map[int(task_id)]
