@@ -1024,10 +1024,14 @@ def main() -> None:
     total = sum(len(job["methods"]) for job in jobs)
     rows = []
     completed = set()
-    _atomic_json(args.output, {"stage": "running", "expected_rows": total, "rows": rows})
     row_store = args.output.with_suffix(".jsonl")
     if row_store.exists():
         raise FileExistsError(f"refusing to overwrite row log: {row_store}")
+    # Keep the progress file compact. Full rows are streamed to JSONL below;
+    # duplicating every historical rollout in status.json makes long runs
+    # quadratic in both disk writes and peak memory.
+    _atomic_json(args.output, {"stage": "running", "expected_rows": total,
+                               "completed_rows": 0, "row_log": str(row_store)})
     with row_store.open("w", encoding="utf-8") as row_handle:
       for job_index, job in enumerate(jobs):
         task_id, trial, condition = int(job["task_id"]), int(job["trial"]), job["condition"]
@@ -1051,7 +1055,7 @@ def main() -> None:
             print(f"[evaluation] {key} success={row['success']} steps={row['steps']} "
                   f"local={row['local_corrections']} replan={row['scene_replans']}", flush=True)
     _atomic_json(args.output, {"stage": "complete", "expected_rows": total,
-                               "completed_rows": len(rows), "rows": rows})
+                               "completed_rows": len(rows), "row_log": str(row_store)})
     report = write_summary(args.output, rows)
     print(json.dumps({"summary": str(args.output.parent / "summary.json"),
                       "report": str(args.output.parent / "REPORT.md"),
