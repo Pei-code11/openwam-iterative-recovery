@@ -128,6 +128,8 @@ class RepairDecision:
     time_required_s: float
     predicted_reduction_m: float
     delta_xyz_m: np.ndarray
+    time_scale: float = 1.0
+    gripper_time_delta_s: float = 0.0
 
     def __post_init__(self) -> None:
         if self.action not in ("continue", "local_repair", "wam_replan"):
@@ -150,7 +152,9 @@ class TemporalRepairPolicy:
                  settle_s: float = 0.10, verify_s: float = 0.10,
                  safety_margin_s: float = 0.15, residual_threshold_m: float = 0.006,
                  minimum_reduction_m: float = 0.001, world_threshold: float = 0.55,
-                 max_phase_error_s: float = 0.30, kp: float = 0.35,
+                 max_phase_error_s: float = 0.30, phase_deadband_s: float = 0.04,
+                 kp: float = 0.35, timing_gain: float = 0.65,
+                 max_gripper_shift_s: float = 0.12,
                  max_delta_m: float = 0.010) -> None:
         self.command_latency_s = float(command_latency_s)
         self.settle_s = float(settle_s)
@@ -160,7 +164,10 @@ class TemporalRepairPolicy:
         self.minimum_reduction_m = float(minimum_reduction_m)
         self.world_threshold = float(world_threshold)
         self.max_phase_error_s = float(max_phase_error_s)
+        self.phase_deadband_s = float(phase_deadband_s)
         self.kp = float(kp)
+        self.timing_gain = float(timing_gain)
+        self.max_gripper_shift_s = float(max_gripper_shift_s)
         self.max_delta_m = float(max_delta_m)
         self.time_required_s = (self.command_latency_s + self.settle_s
                                 + self.verify_s + self.safety_margin_s)
@@ -189,21 +196,36 @@ class TemporalRepairPolicy:
                                   self.time_required_s, 0.0, zero)
 
         residual_norm = float(np.linalg.norm(obs.residual_m))
-        if (residual_norm <= self.residual_threshold_m
-                or obs.mechanical_fault_probability < 0.35):
+        spatial_fault = residual_norm > self.residual_threshold_m
+        temporal_fault = abs(float(obs.phase_error_s)) > self.phase_deadband_s
+        attributable = obs.mechanical_fault_probability >= 0.35
+        if not attributable or not (spatial_fault or temporal_fault):
             return RepairDecision("continue", "within_tolerance", remaining,
                                   self.time_required_s, 0.0, zero)
 
-        delta = -self.kp * obs.residual_m
+        delta = -self.kp * obs.residual_m if spatial_fault else zero.copy()
         norm = float(np.linalg.norm(delta))
         if norm > self.max_delta_m:
             delta *= self.max_delta_m / max(norm, 1e-12)
         predicted = min(residual_norm, float(np.linalg.norm(delta)))
-        if predicted < self.minimum_reduction_m:
+        if spatial_fault and predicted < self.minimum_reduction_m and not temporal_fault:
             return RepairDecision("wam_replan", "insufficient_predicted_reduction",
                                   remaining, self.time_required_s, predicted, zero)
+        # Positive phase error means the executed motion is behind WAM's event
+        # schedule. Compress the remaining chunk slightly and shift gripper
+        # closure by the estimated phase error; both remain tightly bounded.
+        time_scale = 1.0
+        gripper_delta = 0.0
+        if temporal_fault:
+            time_scale = float(np.clip(
+                1.0 - self.timing_gain * obs.phase_error_s
+                / max(remaining, self.time_required_s), 0.80, 1.20))
+            gripper_delta = float(np.clip(
+                obs.phase_error_s, -self.max_gripper_shift_s,
+                self.max_gripper_shift_s))
         return RepairDecision("local_repair", "repairable_before_event", remaining,
-                              self.time_required_s, predicted, delta)
+                              self.time_required_s, predicted, delta,
+                              time_scale, gripper_delta)
 
 
 @dataclass(frozen=True)
@@ -265,6 +287,8 @@ class HierarchicalWAMController:
         if decision.action == "local_repair":
             return ControllerCommand("local_repair", subtask,
                                      {"delta_xyz_m": decision.delta_xyz_m.copy(),
+                                      "time_scale": decision.time_scale,
+                                      "gripper_time_delta_s": decision.gripper_time_delta_s,
                                       "time_to_event_s": decision.time_to_event_s,
                                       "verify_after_s": self.repair.verify_s})
         return ControllerCommand("wam_chunk", subtask,
