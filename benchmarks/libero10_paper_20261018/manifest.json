@@ -1,16 +1,11 @@
 {
   "name": "libero10_paper_scale_v1",
   "tasks": [
-    0,
-    33,
-    78,
-    106,
-    137,
-    145,
-    158,
-    193,
-    237,
-    276
+    287,
+    677,
+    1099,
+    1932,
+    2092
   ],
   "calibration_states": [
     0,
@@ -20,7 +15,13 @@
     2,
     3,
     4,
-    5
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
   ],
   "difficulty": "hard",
   "sim_gpu": 1,
@@ -35,7 +36,7 @@
   ],
   "jobs": [
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 2,
       "condition": "clean",
       "methods": [
@@ -44,7 +45,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 2,
       "condition": "arm_speed_loss",
       "methods": [
@@ -53,7 +54,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 2,
       "condition": "arm_offset",
       "methods": [
@@ -62,7 +63,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 2,
       "condition": "arm_speed_offset",
       "methods": [
@@ -71,7 +72,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 2,
       "condition": "target_shift",
       "methods": [
@@ -82,7 +83,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 2,
       "condition": "distractor_shift",
       "methods": [
@@ -92,7 +93,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 3,
       "condition": "clean",
       "methods": [
@@ -101,7 +102,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 3,
       "condition": "arm_speed_loss",
       "methods": [
@@ -110,7 +111,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 3,
       "condition": "arm_offset",
       "methods": [
@@ -119,7 +120,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 3,
       "condition": "arm_speed_offset",
       "methods": [
@@ -128,7 +129,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 3,
       "condition": "target_shift",
       "methods": [
@@ -139,7 +140,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 3,
       "condition": "distractor_shift",
       "methods": [
@@ -149,7 +150,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 4,
       "condition": "clean",
       "methods": [
@@ -158,7 +159,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 4,
       "condition": "arm_speed_loss",
       "methods": [
@@ -167,7 +168,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 4,
       "condition": "arm_offset",
       "methods": [
@@ -176,7 +177,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 4,
       "condition": "arm_speed_offset",
       "methods": [
@@ -185,7 +186,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 4,
       "condition": "target_shift",
       "methods": [
@@ -196,7 +197,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 4,
       "condition": "distractor_shift",
       "methods": [
@@ -206,7 +207,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 5,
       "condition": "clean",
       "methods": [
@@ -215,7 +216,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 5,
       "condition": "arm_speed_loss",
       "methods": [
@@ -224,7 +225,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 5,
       "condition": "arm_offset",
       "methods": [
@@ -233,7 +234,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 5,
       "condition": "arm_speed_offset",
       "methods": [
@@ -242,7 +243,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 5,
       "condition": "target_shift",
       "methods": [
@@ -253,7 +254,7 @@
       ]
     },
     {
-      "task_id": 0,
+      "task_id": 287,
       "trial": 5,
       "condition": "distractor_shift",
       "methods": [
@@ -263,7 +264,349 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 287,
+      "trial": 6,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 6,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 6,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 6,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 6,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 6,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 7,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 7,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 7,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 7,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 7,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 7,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 8,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 8,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 8,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 8,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 8,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 8,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 9,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 9,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 9,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 9,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 9,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 9,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 10,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 10,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 10,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 10,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 10,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 10,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 11,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 11,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 11,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 11,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 11,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 287,
+      "trial": 11,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
       "trial": 2,
       "condition": "clean",
       "methods": [
@@ -272,7 +615,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 2,
       "condition": "arm_speed_loss",
       "methods": [
@@ -281,7 +624,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 2,
       "condition": "arm_offset",
       "methods": [
@@ -290,7 +633,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 2,
       "condition": "arm_speed_offset",
       "methods": [
@@ -299,7 +642,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 2,
       "condition": "target_shift",
       "methods": [
@@ -310,7 +653,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 2,
       "condition": "distractor_shift",
       "methods": [
@@ -320,7 +663,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 3,
       "condition": "clean",
       "methods": [
@@ -329,7 +672,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 3,
       "condition": "arm_speed_loss",
       "methods": [
@@ -338,7 +681,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 3,
       "condition": "arm_offset",
       "methods": [
@@ -347,7 +690,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 3,
       "condition": "arm_speed_offset",
       "methods": [
@@ -356,7 +699,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 3,
       "condition": "target_shift",
       "methods": [
@@ -367,7 +710,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 3,
       "condition": "distractor_shift",
       "methods": [
@@ -377,7 +720,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 4,
       "condition": "clean",
       "methods": [
@@ -386,7 +729,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 4,
       "condition": "arm_speed_loss",
       "methods": [
@@ -395,7 +738,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 4,
       "condition": "arm_offset",
       "methods": [
@@ -404,7 +747,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 4,
       "condition": "arm_speed_offset",
       "methods": [
@@ -413,7 +756,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 4,
       "condition": "target_shift",
       "methods": [
@@ -424,7 +767,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 4,
       "condition": "distractor_shift",
       "methods": [
@@ -434,7 +777,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 5,
       "condition": "clean",
       "methods": [
@@ -443,7 +786,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 5,
       "condition": "arm_speed_loss",
       "methods": [
@@ -452,7 +795,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 5,
       "condition": "arm_offset",
       "methods": [
@@ -461,7 +804,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 5,
       "condition": "arm_speed_offset",
       "methods": [
@@ -470,7 +813,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 5,
       "condition": "target_shift",
       "methods": [
@@ -481,7 +824,7 @@
       ]
     },
     {
-      "task_id": 33,
+      "task_id": 677,
       "trial": 5,
       "condition": "distractor_shift",
       "methods": [
@@ -491,7 +834,349 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 677,
+      "trial": 6,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 6,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 6,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 6,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 6,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 6,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 7,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 7,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 7,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 7,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 7,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 7,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 8,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 8,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 8,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 8,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 8,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 8,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 9,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 9,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 9,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 9,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 9,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 9,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 10,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 10,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 10,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 10,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 10,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 10,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 11,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 11,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 11,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 11,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 11,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 677,
+      "trial": 11,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
       "trial": 2,
       "condition": "clean",
       "methods": [
@@ -500,7 +1185,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 2,
       "condition": "arm_speed_loss",
       "methods": [
@@ -509,7 +1194,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 2,
       "condition": "arm_offset",
       "methods": [
@@ -518,7 +1203,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 2,
       "condition": "arm_speed_offset",
       "methods": [
@@ -527,7 +1212,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 2,
       "condition": "target_shift",
       "methods": [
@@ -538,7 +1223,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 2,
       "condition": "distractor_shift",
       "methods": [
@@ -548,7 +1233,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 3,
       "condition": "clean",
       "methods": [
@@ -557,7 +1242,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 3,
       "condition": "arm_speed_loss",
       "methods": [
@@ -566,7 +1251,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 3,
       "condition": "arm_offset",
       "methods": [
@@ -575,7 +1260,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 3,
       "condition": "arm_speed_offset",
       "methods": [
@@ -584,7 +1269,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 3,
       "condition": "target_shift",
       "methods": [
@@ -595,7 +1280,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 3,
       "condition": "distractor_shift",
       "methods": [
@@ -605,7 +1290,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 4,
       "condition": "clean",
       "methods": [
@@ -614,7 +1299,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 4,
       "condition": "arm_speed_loss",
       "methods": [
@@ -623,7 +1308,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 4,
       "condition": "arm_offset",
       "methods": [
@@ -632,7 +1317,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 4,
       "condition": "arm_speed_offset",
       "methods": [
@@ -641,7 +1326,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 4,
       "condition": "target_shift",
       "methods": [
@@ -652,7 +1337,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 4,
       "condition": "distractor_shift",
       "methods": [
@@ -662,7 +1347,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 5,
       "condition": "clean",
       "methods": [
@@ -671,7 +1356,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 5,
       "condition": "arm_speed_loss",
       "methods": [
@@ -680,7 +1365,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 5,
       "condition": "arm_offset",
       "methods": [
@@ -689,7 +1374,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 5,
       "condition": "arm_speed_offset",
       "methods": [
@@ -698,7 +1383,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 5,
       "condition": "target_shift",
       "methods": [
@@ -709,7 +1394,7 @@
       ]
     },
     {
-      "task_id": 78,
+      "task_id": 1099,
       "trial": 5,
       "condition": "distractor_shift",
       "methods": [
@@ -719,7 +1404,349 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1099,
+      "trial": 6,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 6,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 6,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 6,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 6,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 6,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 7,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 7,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 7,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 7,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 7,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 7,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 8,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 8,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 8,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 8,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 8,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 8,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 9,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 9,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 9,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 9,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 9,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 9,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 10,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 10,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 10,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 10,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 10,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 10,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 11,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 11,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 11,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 11,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 11,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1099,
+      "trial": 11,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
       "trial": 2,
       "condition": "clean",
       "methods": [
@@ -728,7 +1755,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 2,
       "condition": "arm_speed_loss",
       "methods": [
@@ -737,7 +1764,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 2,
       "condition": "arm_offset",
       "methods": [
@@ -746,7 +1773,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 2,
       "condition": "arm_speed_offset",
       "methods": [
@@ -755,7 +1782,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 2,
       "condition": "target_shift",
       "methods": [
@@ -766,7 +1793,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 2,
       "condition": "distractor_shift",
       "methods": [
@@ -776,7 +1803,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 3,
       "condition": "clean",
       "methods": [
@@ -785,7 +1812,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 3,
       "condition": "arm_speed_loss",
       "methods": [
@@ -794,7 +1821,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 3,
       "condition": "arm_offset",
       "methods": [
@@ -803,7 +1830,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 3,
       "condition": "arm_speed_offset",
       "methods": [
@@ -812,7 +1839,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 3,
       "condition": "target_shift",
       "methods": [
@@ -823,7 +1850,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 3,
       "condition": "distractor_shift",
       "methods": [
@@ -833,7 +1860,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 4,
       "condition": "clean",
       "methods": [
@@ -842,7 +1869,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 4,
       "condition": "arm_speed_loss",
       "methods": [
@@ -851,7 +1878,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 4,
       "condition": "arm_offset",
       "methods": [
@@ -860,7 +1887,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 4,
       "condition": "arm_speed_offset",
       "methods": [
@@ -869,7 +1896,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 4,
       "condition": "target_shift",
       "methods": [
@@ -880,7 +1907,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 4,
       "condition": "distractor_shift",
       "methods": [
@@ -890,7 +1917,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 5,
       "condition": "clean",
       "methods": [
@@ -899,7 +1926,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 5,
       "condition": "arm_speed_loss",
       "methods": [
@@ -908,7 +1935,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 5,
       "condition": "arm_offset",
       "methods": [
@@ -917,7 +1944,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 5,
       "condition": "arm_speed_offset",
       "methods": [
@@ -926,7 +1953,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 5,
       "condition": "target_shift",
       "methods": [
@@ -937,7 +1964,7 @@
       ]
     },
     {
-      "task_id": 106,
+      "task_id": 1932,
       "trial": 5,
       "condition": "distractor_shift",
       "methods": [
@@ -947,7 +1974,349 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 1932,
+      "trial": 6,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 6,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 6,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 6,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 6,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 6,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 7,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 7,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 7,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 7,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 7,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 7,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 8,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 8,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 8,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 8,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 8,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 8,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 9,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 9,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 9,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 9,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 9,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 9,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 10,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 10,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 10,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 10,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 10,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 10,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 11,
+      "condition": "clean",
+      "methods": [
+        "wam",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 11,
+      "condition": "arm_speed_loss",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 11,
+      "condition": "arm_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 11,
+      "condition": "arm_speed_offset",
+      "methods": [
+        "fault_only",
+        "hybrid"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 11,
+      "condition": "target_shift",
+      "methods": [
+        "stale_plan",
+        "local_only",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 1932,
+      "trial": 11,
+      "condition": "distractor_shift",
+      "methods": [
+        "stale_plan",
+        "hybrid",
+        "fixed_refresh"
+      ]
+    },
+    {
+      "task_id": 2092,
       "trial": 2,
       "condition": "clean",
       "methods": [
@@ -956,7 +2325,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 2,
       "condition": "arm_speed_loss",
       "methods": [
@@ -965,7 +2334,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 2,
       "condition": "arm_offset",
       "methods": [
@@ -974,7 +2343,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 2,
       "condition": "arm_speed_offset",
       "methods": [
@@ -983,7 +2352,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 2,
       "condition": "target_shift",
       "methods": [
@@ -994,7 +2363,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 2,
       "condition": "distractor_shift",
       "methods": [
@@ -1004,7 +2373,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 3,
       "condition": "clean",
       "methods": [
@@ -1013,7 +2382,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 3,
       "condition": "arm_speed_loss",
       "methods": [
@@ -1022,7 +2391,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 3,
       "condition": "arm_offset",
       "methods": [
@@ -1031,7 +2400,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 3,
       "condition": "arm_speed_offset",
       "methods": [
@@ -1040,7 +2409,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 3,
       "condition": "target_shift",
       "methods": [
@@ -1051,7 +2420,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 3,
       "condition": "distractor_shift",
       "methods": [
@@ -1061,7 +2430,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 4,
       "condition": "clean",
       "methods": [
@@ -1070,7 +2439,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 4,
       "condition": "arm_speed_loss",
       "methods": [
@@ -1079,7 +2448,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 4,
       "condition": "arm_offset",
       "methods": [
@@ -1088,7 +2457,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 4,
       "condition": "arm_speed_offset",
       "methods": [
@@ -1097,7 +2466,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 4,
       "condition": "target_shift",
       "methods": [
@@ -1108,7 +2477,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 4,
       "condition": "distractor_shift",
       "methods": [
@@ -1118,7 +2487,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 5,
       "condition": "clean",
       "methods": [
@@ -1127,7 +2496,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 5,
       "condition": "arm_speed_loss",
       "methods": [
@@ -1136,7 +2505,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 5,
       "condition": "arm_offset",
       "methods": [
@@ -1145,7 +2514,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 5,
       "condition": "arm_speed_offset",
       "methods": [
@@ -1154,7 +2523,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 5,
       "condition": "target_shift",
       "methods": [
@@ -1165,7 +2534,7 @@
       ]
     },
     {
-      "task_id": 137,
+      "task_id": 2092,
       "trial": 5,
       "condition": "distractor_shift",
       "methods": [
@@ -1175,8 +2544,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 6,
       "condition": "clean",
       "methods": [
         "wam",
@@ -1184,8 +2553,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 6,
       "condition": "arm_speed_loss",
       "methods": [
         "fault_only",
@@ -1193,8 +2562,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 6,
       "condition": "arm_offset",
       "methods": [
         "fault_only",
@@ -1202,8 +2571,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 6,
       "condition": "arm_speed_offset",
       "methods": [
         "fault_only",
@@ -1211,8 +2580,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 6,
       "condition": "target_shift",
       "methods": [
         "stale_plan",
@@ -1222,8 +2591,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 6,
       "condition": "distractor_shift",
       "methods": [
         "stale_plan",
@@ -1232,8 +2601,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 7,
       "condition": "clean",
       "methods": [
         "wam",
@@ -1241,8 +2610,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 7,
       "condition": "arm_speed_loss",
       "methods": [
         "fault_only",
@@ -1250,8 +2619,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 7,
       "condition": "arm_offset",
       "methods": [
         "fault_only",
@@ -1259,8 +2628,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 7,
       "condition": "arm_speed_offset",
       "methods": [
         "fault_only",
@@ -1268,8 +2637,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 7,
       "condition": "target_shift",
       "methods": [
         "stale_plan",
@@ -1279,8 +2648,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 7,
       "condition": "distractor_shift",
       "methods": [
         "stale_plan",
@@ -1289,8 +2658,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 4,
+      "task_id": 2092,
+      "trial": 8,
       "condition": "clean",
       "methods": [
         "wam",
@@ -1298,8 +2667,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 4,
+      "task_id": 2092,
+      "trial": 8,
       "condition": "arm_speed_loss",
       "methods": [
         "fault_only",
@@ -1307,8 +2676,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 4,
+      "task_id": 2092,
+      "trial": 8,
       "condition": "arm_offset",
       "methods": [
         "fault_only",
@@ -1316,8 +2685,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 4,
+      "task_id": 2092,
+      "trial": 8,
       "condition": "arm_speed_offset",
       "methods": [
         "fault_only",
@@ -1325,8 +2694,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 4,
+      "task_id": 2092,
+      "trial": 8,
       "condition": "target_shift",
       "methods": [
         "stale_plan",
@@ -1336,8 +2705,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 4,
+      "task_id": 2092,
+      "trial": 8,
       "condition": "distractor_shift",
       "methods": [
         "stale_plan",
@@ -1346,8 +2715,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 5,
+      "task_id": 2092,
+      "trial": 9,
       "condition": "clean",
       "methods": [
         "wam",
@@ -1355,8 +2724,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 5,
+      "task_id": 2092,
+      "trial": 9,
       "condition": "arm_speed_loss",
       "methods": [
         "fault_only",
@@ -1364,8 +2733,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 5,
+      "task_id": 2092,
+      "trial": 9,
       "condition": "arm_offset",
       "methods": [
         "fault_only",
@@ -1373,8 +2742,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 5,
+      "task_id": 2092,
+      "trial": 9,
       "condition": "arm_speed_offset",
       "methods": [
         "fault_only",
@@ -1382,8 +2751,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 5,
+      "task_id": 2092,
+      "trial": 9,
       "condition": "target_shift",
       "methods": [
         "stale_plan",
@@ -1393,8 +2762,8 @@
       ]
     },
     {
-      "task_id": 145,
-      "trial": 5,
+      "task_id": 2092,
+      "trial": 9,
       "condition": "distractor_shift",
       "methods": [
         "stale_plan",
@@ -1403,8 +2772,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 10,
       "condition": "clean",
       "methods": [
         "wam",
@@ -1412,8 +2781,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 10,
       "condition": "arm_speed_loss",
       "methods": [
         "fault_only",
@@ -1421,8 +2790,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 10,
       "condition": "arm_offset",
       "methods": [
         "fault_only",
@@ -1430,8 +2799,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 10,
       "condition": "arm_speed_offset",
       "methods": [
         "fault_only",
@@ -1439,8 +2808,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 10,
       "condition": "target_shift",
       "methods": [
         "stale_plan",
@@ -1450,8 +2819,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 2,
+      "task_id": 2092,
+      "trial": 10,
       "condition": "distractor_shift",
       "methods": [
         "stale_plan",
@@ -1460,8 +2829,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 11,
       "condition": "clean",
       "methods": [
         "wam",
@@ -1469,8 +2838,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 11,
       "condition": "arm_speed_loss",
       "methods": [
         "fault_only",
@@ -1478,8 +2847,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 11,
       "condition": "arm_offset",
       "methods": [
         "fault_only",
@@ -1487,8 +2856,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 11,
       "condition": "arm_speed_offset",
       "methods": [
         "fault_only",
@@ -1496,8 +2865,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 3,
+      "task_id": 2092,
+      "trial": 11,
       "condition": "target_shift",
       "methods": [
         "stale_plan",
@@ -1507,806 +2876,8 @@
       ]
     },
     {
-      "task_id": 158,
-      "trial": 3,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 4,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 4,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 4,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 4,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 4,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 4,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 5,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 5,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 5,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 5,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 5,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 158,
-      "trial": 5,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 2,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 2,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 2,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 2,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 2,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 2,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 3,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 3,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 3,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 3,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 3,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 3,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 4,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 4,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 4,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 4,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 4,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 4,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 5,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 5,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 5,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 5,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 5,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 193,
-      "trial": 5,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 2,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 2,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 2,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 2,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 2,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 2,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 3,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 3,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 3,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 3,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 3,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 3,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 4,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 4,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 4,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 4,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 4,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 4,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 5,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 5,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 5,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 5,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 5,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 237,
-      "trial": 5,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 2,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 2,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 2,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 2,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 2,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 2,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 3,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 3,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 3,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 3,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 3,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 3,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 4,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 4,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 4,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 4,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 4,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 4,
-      "condition": "distractor_shift",
-      "methods": [
-        "stale_plan",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 5,
-      "condition": "clean",
-      "methods": [
-        "wam",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 5,
-      "condition": "arm_speed_loss",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 5,
-      "condition": "arm_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 5,
-      "condition": "arm_speed_offset",
-      "methods": [
-        "fault_only",
-        "hybrid"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 5,
-      "condition": "target_shift",
-      "methods": [
-        "stale_plan",
-        "local_only",
-        "hybrid",
-        "fixed_refresh"
-      ]
-    },
-    {
-      "task_id": 276,
-      "trial": 5,
+      "task_id": 2092,
+      "trial": 11,
       "condition": "distractor_shift",
       "methods": [
         "stale_plan",
@@ -2315,7 +2886,7 @@
       ]
     }
   ],
-  "expected_rows": 600,
+  "expected_rows": 750,
   "seed_rule": "runner deterministic task/trial/condition seed",
   "limits": [
     "custom OpenWAM/LIBERO simulator",

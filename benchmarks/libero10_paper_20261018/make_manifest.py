@@ -3,18 +3,13 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-TASKS = [0, 33, 78, 106, 137, 145, 158, 193, 237, 276]
+TASKS = [287, 677, 1099, 1932, 2092]
 TASK_NAMES = {
-    0: "turn on the stove and put the moka pot on it",
-    33: "put the black bowl in the bottom drawer of the cabinet and close it",
-    78: "put the yellow and white mug in the microwave and close it",
-    106: "put both moka pots on the stove",
-    137: "put both the alphabet soup and the cream cheese box in the basket",
-    145: "put both the alphabet soup and the tomato sauce in the basket",
-    158: "put both the cream cheese box and the butter in the basket",
-    193: "put the white mug on the left plate and the yellow and white mug on the right plate",
-    237: "put the white mug on the plate and put the chocolate pudding to the right of the plate",
-    276: "pick up the book and place it in the back compartment of the caddy",
+    287: "pick up the book and place it in the back compartment of the caddy tb 17",
+    677: "put the yellow and white mug in the microwave and close it view 0 0 100 0 0 initstate 460",
+    1099: "put the yellow and white mug in the microwave and close it view 358 15 100 0 0 initstate 0",
+    1932: "put the yellow and white mug in the microwave and close it view 0 0 100 0 0 initstate 0 noise 50",
+    2092: "put both the alphabet soup and the tomato sauce in the basket level5 sample4",
 }
 CONDITIONS = {
     "clean": ["wam", "hybrid"],
@@ -31,14 +26,14 @@ def main() -> None:
     (root / "prompts.json").write_text(json.dumps(prompts, indent=2) + "\n")
     jobs = []
     for task_id in TASKS:
-        for trial in (2, 3, 4, 5):
+        for trial in range(2, 12):
             for condition, methods in CONDITIONS.items():
                 jobs.append({"task_id": task_id, "trial": trial,
                              "condition": condition, "methods": methods})
     manifest = {
         "name": "libero10_paper_scale_v1",
         "tasks": TASKS, "calibration_states": [0, 1],
-        "evaluation_states": [2, 3, 4, 5],
+        "evaluation_states": list(range(2, 12)),
         "difficulty": "hard", "sim_gpu": 1, "wam_gpu": 2,
         "conditions": list(CONDITIONS), "jobs": jobs,
         "expected_rows": sum(len(j["methods"]) for j in jobs),
@@ -47,7 +42,7 @@ def main() -> None:
                     "Cartesian downstream gain/bias plant", "not official LIBERO or real robot"],
     }
     (root / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
-    print(json.dumps({"tasks": len(TASKS), "scenes": 40,
+    print(json.dumps({"tasks": len(TASKS), "scenes": 50,
                       "expected_rows": manifest["expected_rows"]}, indent=2))
 
 if __name__ == "__main__":

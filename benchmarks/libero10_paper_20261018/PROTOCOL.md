@@ -1,7 +1,7 @@
 # Frozen evaluation protocol
 
-The primary evaluation contains all ten LIBERO-10 task families, four held-out
-states per family (states 2, 3, 4, 5), six predeclared conditions, and the
+The primary evaluation contains five fixed public LIBERO-Plus scenarios, ten
+held-out states per scenario (states 2 through 11), six predeclared conditions, and the
 paired methods in `manifest.json` (600 rows). States 0 and 1 are calibration
 only. Every method is run on the same task/state/condition and deterministic
 perturbation seed.

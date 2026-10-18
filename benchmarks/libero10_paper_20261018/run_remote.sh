@@ -16,15 +16,15 @@ mkdir -p "$R/logs"
 
 if [[ ! -f "$R/calibration.json" ]]; then
   "$PY" -u "$R/code/run_libero_plus_bench.py" --stage calibrate \
-    --output "$R/calibration_status.json" --tasks 0 33 78 106 137 145 158 193 237 276 \
+    --output "$R/calibration_status.json" --tasks 287 677 1099 1932 2092 \
     --states 0 1 --calibration-states 0 1 --max-steps 700 --wam-port 8977 \
     --sim-gpu 1 --difficulty hard 2>&1 | tee "$R/logs/calibration.log"
 fi
 
 if [[ ! -f "$R/evaluation_status.json" ]]; then
   "$PY" -u "$R/code/run_libero_plus_bench.py" --stage evaluate \
-    --output "$R/evaluation_status.json" --tasks 0 33 78 106 137 145 158 193 237 276 \
-    --states 2 3 4 5 --calibration-states 0 1 --calibration "$R/calibration.json" \
+    --output "$R/evaluation_status.json" --tasks 287 677 1099 1932 2092 \
+    --states 2 3 4 5 6 7 8 9 10 11 --calibration-states 0 1 --calibration "$R/calibration.json" \
     --job-manifest "$R/manifest.json" --max-steps 700 --wam-port 8977 \
     --sim-gpu 1 --difficulty hard 2>&1 | tee "$R/logs/evaluation.log"
 fi

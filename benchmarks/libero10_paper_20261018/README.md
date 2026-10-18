@@ -1,10 +1,10 @@
 # LIBERO-10 paper-scale paired benchmark
 
-This manifest expands the pilot to all ten LIBERO-10 task families. It uses
-four held-out initial states per family (40 matched scenes) and the same six
+This manifest expands the pilot to ten held-out initial states for each of
+five public LIBERO-Plus scenarios (50 matched scenes) and the same six
 conditions and paired methods as the public hard benchmark, giving 600 paired
 rollout rows. Calibration uses states 0 and 1 only; evaluation uses states
-2--5. The task list, perturbation amplitudes, timing, threshold rule, and
+2--11. The task list, perturbation amplitudes, timing, threshold rule, and
 metrics are frozen before evaluation.
 
 The benchmark is a custom OpenWAM/LIBERO simulation study. Execution drift is
