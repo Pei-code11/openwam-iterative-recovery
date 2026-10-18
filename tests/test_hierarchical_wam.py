@@ -62,3 +62,11 @@ def test_controller_routes_replan_to_middle_wam():
     assert command.kind == "wam_replan"
     assert wam.refreshes == [("subtask_1", "task_relevant_world_change")]
 
+
+def test_temporal_repair_returns_bounded_timing_adjustment():
+    policy = TemporalRepairPolicy()
+    decision = policy.decide(_obs(phase=0.18))
+    assert decision.action == "local_repair"
+    assert 0.80 <= decision.time_scale < 1.0
+    assert 0.0 < decision.gripper_time_delta_s <= 0.12
+
